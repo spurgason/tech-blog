@@ -26,7 +26,8 @@ router.get('/', (req, res) => {
       ]
   })
       .then(postData => {
-        console.log(postData[0]);
+        const posts = postData.map(post => post.get({ plain: true }));
+        res.render('homepage', {posts});
       })
       .catch(err => {
           console.log(err);
