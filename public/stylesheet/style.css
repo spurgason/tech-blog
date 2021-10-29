@@ -126,7 +126,7 @@ span.user-id  {
 
 .post {
     margin-bottom: 2%;
-    line-height: 150%;
+    line-height: 120%;
 }
   
 .post .title span {
@@ -134,7 +134,12 @@ span.user-id  {
     font-size: 90%;
     color: #7d7d7d;
 }
-  
+
+p.post-body {
+    color: #f4a261;
+    line-height: 50%;
+
+}
 .edit-link {
     display: block;
     margin: -1.5% 0 2% 0;
