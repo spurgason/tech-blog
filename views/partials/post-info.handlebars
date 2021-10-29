@@ -1,7 +1,13 @@
 <article class="post">
     <div class="title">
-        <a href="{{post_url}}" target="_blank">{{title}}</a>
-        <span>({{ format_url post_url}})</span>
+        <span class="user-id"><i class="bi bi-person-circle"></i> {{user.username}} posted</span> <br>
+        <p>{{title}}</p>
+        <a href="{{post_url}}" target="_blank">
+            <span>({{ format_url post_url}})</span>
+        </a>
+        <span>{{body}}</span>
+        
+        
     </div>
     <div class="meta">
         {{ format_date created_at}}
