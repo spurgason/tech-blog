@@ -52,6 +52,7 @@ textarea, input {
     padding: .5%;
     border-radius: 5px;
     border: 1px solid #e9c46a;
+    font-family: Arial, Helvetica, sans-serif;
 }
   
 textarea:focus, input:focus {
