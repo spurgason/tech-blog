@@ -9,9 +9,9 @@
             <input name="post-title" type="text" value="{{post.title}}" />
             <span>({{format_url post.post_url}})</span>
         </div>
-         <div>
-             <p>Edit Body</p>
-            <input name="post-body" type="text" value="{{post.body}}" />
+        <div>
+            <p>Edit Body</p>
+            <textarea name="post-body" value="{{post.body}}"></textarea>
         </div>
         <div>
             Posted by you on {{format_date post.created_at}}
@@ -29,7 +29,7 @@
     </div>
 
     <div>
-        <button type="submit">add comment</button>
+        <button type="submit">Add Comment</button>
     </div>
 </form>
 

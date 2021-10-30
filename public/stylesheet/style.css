@@ -138,6 +138,10 @@ span.user-id  {
 p.post-body {
     color: #ccc;
 }
+
+.new-post-form input #post-body{
+    width: 300px;
+}
 .edit-link {
     display: block;
     margin: -1.5% 0 2% 0;
