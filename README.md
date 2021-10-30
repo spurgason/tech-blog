@@ -30,7 +30,7 @@ To install just clone the repository to your local machine. After the repository
 Once the server is started and the user is at [localhost:3001](http://localhost:3001/). They will see three main things, TechPOST (which will take you to the homepage wherever you are on the application), a login button, and posts. The post are seeded into the application using lorem lipsum text for the titles and comments, and the body text will say 'Here is some body text', and all urls will take you to a website but most come to a 404, unless the user puts in a valid url when they create a post. First, the user must login, they can sign-up oor log back in if they have already made an account. Once logged in the user will have two new options in the navigation bar. They can either click 'dashboard' which will take them to a page where they can create a new post, view previous post (which they can select edit on to either update or delete), also the user will have an option to add a URL to an article if they wish  or they can select 'logout' which will simply log them out. If they do not wish to make a post they can visit other users post by either clicking on the title or comments. Here the user can see all the comments for this post and they can leave one of their own. If the user wishes to return to the homepage they can click on 'Tech POST' to take them back to the home page.  
 
 ## Live Application
-
+[Tech POST](https://tech-post-spurgason.herokuapp.com/)
 ## Credits
 [Shane Purgason](https://github.com/spurgason)
 
