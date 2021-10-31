@@ -23,7 +23,7 @@ Post.init(
             type: DataTypes.STRING,
             allowNull: true,
             validate: {
-                isURL: true
+                isURL: {msg:'Invalid URL'}
             }
         },
         user_id: {
