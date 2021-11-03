@@ -23,6 +23,10 @@ a:hover {
     color: #e76f51;
 }
 
+nav a {
+    padding-left: .5rem;
+}
+
 li {
     list-style: none;
     border-bottom: 1px solid #ccc;
